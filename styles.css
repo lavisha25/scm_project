@@ -1,0 +1,93 @@
+/* style.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background */
+body {
+    background-color: #141414;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+/* Navigation */
+nav {
+    background-color: #e50914;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav img {
+    width: 120px;
+}
+
+/* Form wrapper */
+.form-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Form elements */
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+button[type="submit"] {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Form help section */
+.form-help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input {
+    margin-right: 0.5rem;
+}
+
+/* Sign-up link */
+p a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+/* Small text */
+small {
+    font-size: 12px;
+    opacity: 0.7;
+}
