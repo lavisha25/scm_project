@@ -157,25 +157,49 @@ input {
 	padding-top: 10%;
 }
 
+.children {
+    background-color: black; 
+	font-size: 30px;
+	padding: 90px 10%;
+	margin-bottom: 0;
+	/* margin-left: 280px; */
+	background: 0 0;
+	color: #fff;
+	display: flex;
+	align-items: flex-start;
+}
+
+.children .child-img{
+	width: 70%;
+}
+
+.children .child-text{
+	width: 70%;
+	padding-top: 10%;
+}
+
 .watch-everywhere {
 	font-size: 30px;
 	text-align: left;
-	position: relative;
-	padding: 150px 10%;
+	/* position: relative; */
+	/* padding: 150px 10%; */
 	padding-left: 280px;
-	margin-bottom: 0;
+	/* margin-bottom: 0; */
 	background: 0 0;
 	color: #fff;
-	display: block;
     background-color: black; 
+	display: flex;
 }
 
 .watch-everywhere img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(+20%, -50%);
-	display: block;
+	height: 50;
+	width: 100;
+	padding-right: 5%;
+}
+
+.watch-everywhere .offline-text{
+	width: 70%;
+	padding-top: 7%;
 }
 
 .ask-question {
@@ -191,18 +215,17 @@ input {
 .ask-question button {
 	display: center;
 	text-align: left;
-	background-color: black;
+	background-color: rgb(49, 42, 42);
 	color: white;
 	height: 65px;
-	width: 700px;
+	width: 80%;
 	font-size: 0.9rem;
-	padding: 0.3rem 0.5rem;
 	text-transform: uppercase;
-	border-radius: 2px;
+	/* border-radius: 2px; */
+	margin-left: 10%;
 }
 
 footer.page-down {
-	border-top: 8px solid;
 	background-color: black;
 	font-size: 0.8rem;
 	margin-bottom: 1.5rem;
