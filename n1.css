@@ -139,22 +139,22 @@ input {
 .Watch-offline {
     background-color: black; 
 	font-size: 30px;
-	text-align: justify;
-	position: relative;
-	padding: 150px 10%;
+	padding: 90px 10%;
 	margin-bottom: 0;
-	margin-left: 280px;
+	/* margin-left: 280px; */
 	background: 0 0;
 	color: #fff;
-	display: block;
+	display: flex;
+	align-items: flex-start;
 }
 
-.Watch-offline img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(+20%, -50%);
-	display: block;
+.Watch-offline .offline-img{
+	width: 70%;
+}
+
+.Watch-offline .offline-text{
+	width: 70%;
+	padding-top: 10%;
 }
 
 .watch-everywhere {
