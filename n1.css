@@ -117,7 +117,7 @@ input {
 }
 
 .enjoy-tv {
-	font-size: 30px;
+	font-size: 25px;
 	text-align: left;
 	position: relative;
 	padding: 150px 10%;
@@ -125,9 +125,7 @@ input {
 	margin-bottom: 0;
 	background: 0 0;
 	color: #fff;
-	display: block;
-	border-bottom: 8px solid #222;
-    background-color: #222; 
+    background-color: black; 
 }
 
 .enjoy-tv img {
@@ -139,7 +137,7 @@ input {
 }
 
 .Watch-offline {
-    background-color: #222; 
+    background-color: black; 
 	font-size: 30px;
 	text-align: justify;
 	position: relative;
@@ -149,7 +147,6 @@ input {
 	background: 0 0;
 	color: #fff;
 	display: block;
-	border-bottom: 8px solid #222;
 }
 
 .Watch-offline img {
@@ -170,8 +167,7 @@ input {
 	background: 0 0;
 	color: #fff;
 	display: block;
-	border-bottom: 8px solid #222;	
-    background-color: #222; 
+    background-color: black; 
 }
 
 .watch-everywhere img {
@@ -183,7 +179,7 @@ input {
 }
 
 .ask-question {
-    background-color: #222; 
+    background-color: black; 
     height: 600px;
 }
 
@@ -195,7 +191,7 @@ input {
 .ask-question button {
 	display: center;
 	text-align: left;
-	background-color: #303030;
+	background-color: black;
 	color: white;
 	height: 65px;
 	width: 700px;
@@ -203,16 +199,14 @@ input {
 	padding: 0.3rem 0.5rem;
 	text-transform: uppercase;
 	border-radius: 2px;
-    background-color: #222; 
 }
 
-.page-down {
-	border-top: 8px solid #222;
-	background-color: transparent;
+footer.page-down {
+	border-top: 8px solid;
+	background-color: black;
 	font-size: 0.8rem;
 	margin-bottom: 1.5rem;
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-gap: 0.5rem;
-    background-color: #222; 
 }

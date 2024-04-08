@@ -90,22 +90,38 @@ input {
     color: white;
 }
 
-button {
+button.signin {
     height: 40px;
-    width: 150px;
+    width: 120px;
     background-color: red;
     color: white;
     font-weight: bolder;
     float: right;
+    margin-left: 10px;
+}
+
+button.gs {
+    height: 50px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    float: right;
+    margin-left: 10px;
 }
 
 select {
     height: 40px;
     width: 100px;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: black;
     color: white;
 }
 
 .netflix {
-    background-color: rgb(48, 45, 45);
+    background-color: black;
+}
+
+.enjoy-tv img {
+    height: 400px;
+    width: 600px;
 }
