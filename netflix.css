@@ -11,7 +11,9 @@ body {
     background-image: url(netflixpicture.jpg);
 }
 
-header {
+nav {
+    height: 30px;
+    margin: 0px;
     background-color: transparent;
     position: fixed;
     top: 0;
@@ -24,14 +26,14 @@ header {
     z-index: 100;
 }
 
-nav {
+.navigation {
     display: flex;
-    align-items: center;
 }
 
-.logo img {
+nav .logo img {
     width: 150px;
-    margin-left: 170px;
+    margin-left: 25vh;
+    margin-top: 5vh;
 }
 
 .nav-links {
@@ -39,6 +41,9 @@ nav {
     color: #fff;
     display: inline;
     flex-direction: row;
+    margin-top: 6vh;
+    margin-left: 115vh;
+    justify-content: space-between;
 }
 
 .main {
@@ -85,22 +90,38 @@ input {
     color: white;
 }
 
-button {
+button.signin {
     height: 40px;
-    width: 150px;
+    width: 120px;
     background-color: red;
     color: white;
     font-weight: bolder;
     float: right;
+    margin-left: 10px;
+}
+
+button.gs {
+    height: 50px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    float: right;
+    margin-left: 10px;
 }
 
 select {
     height: 40px;
     width: 100px;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: black;
     color: white;
 }
 
 .netflix {
-    background-color: rgb(48, 45, 45);
+    background-color: black;
+}
+
+.enjoy-tv img {
+    height: 400px;
+    width: 600px;
 }
