@@ -2,11 +2,9 @@
     <head>
         <title>NetFlix</title>
         <style>
-            .inner{
-                a { text-decoration:none; }
-                padding-top: 0px;
-                padding-left:1000px;
-                padding-right:500px;
+            p.inner h3{
+                margin-left:100%;
+                float: right;
             }
             .body{
                 text-align: center;
@@ -17,22 +15,27 @@
                 a { text-decoration:none; }
             }
             .next{
-                text-align: center;
-                padding-left: 150px;
                 background-color: red;
-                height: 50px;
-                width: 1px;
-                padding-right: 100px;
+                height: 40px;
+                width: 140px;
+                border-radius: 5px;
+                padding-top: 1%;
+                font-size: 20px;
+            }
+            .container {
+                display: flex;
                 
-                
+            }
+            .container .inner {
+                margin-left: 80%;
             }
         </style>
     </head>
     <body>
-       <font size="5">
+    <div class="container">
         <h1 style="color: red;">NETFLIX</h1>
-       <p class="inner"><a href="###"><h3>Sign in</h3></a></p></font>
-       </font>
+       <p class="inner"><a href="###"><h3>Sign in</h3></a></p>
+    </div>
        <div class="body"><h1>STEP 2 to 3<br></h1>
         <h1>Choose your plan.</h1>
         <p style="background-color: aliceblue;"></p>
@@ -49,6 +52,6 @@
         <p style="background-color: aliceblue;"></p>
         <p style="background-color: aliceblue;"></p>
         </div>
-       <center><p class="next" style="text-align: center;">NEXT</p></center>
+       <center><p class="next">NEXT</p></center>
       </body>
 </html>
