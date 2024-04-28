@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-    height: 30px;
+    height: 31px;
     margin: 0px;
     background-color: transparent;
     position: fixed;
@@ -31,7 +31,7 @@ nav {
 }
 
 nav .logo img {
-    width: 150px;
+    width: 151px;
     margin-left: 25vh;
     margin-top: 5vh;
 }
@@ -64,12 +64,12 @@ nav .logo img {
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 3.1rem;
 }
 
 .hero p {
     font-size: 1.5rem;
-    margin-top: 20px;
+    margin-top: 19px;
 }
 
 .cta-button {
@@ -79,12 +79,12 @@ nav .logo img {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 5.1px;
     margin-top: 20px;
 }
 
 input {
-    height: 40px;
+    height: 41px;
     width: 280px;
     background-color: rgba(0, 0, 0, 0.519);
     color: white;
@@ -101,7 +101,7 @@ button.signin {
 }
 
 button.gs {
-    height: 50px;
+    height: 51px;
     width: 120px;
     background-color: red;
     color: white;
