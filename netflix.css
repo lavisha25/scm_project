@@ -124,4 +124,5 @@ select {
 .enjoy-tv img {
     height: 400px;
     width: 601px;
+    border-radius: 1px;
 }
