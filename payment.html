@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+        }
+        .payment-options {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .payment-option {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .payment-option:hover {
+            transform: translateY(-5px);
+        }
+        .payment-option img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .payment-option p {
+            margin: 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Select Payment Method</h2>
+        <div class="payment-options">
+            <div class="payment-option">
+                <img src="credit_card.png" alt="Credit Card">
+                <p>Credit Card</p>
+            </div>
+            <div class="payment-option">
+                <img src="debit_card.png" alt="Debit Card">
+                <p>Debit Card</p>
+            </div>
+            <div class="payment-option">
+                <img src="google_pay.png" alt="Google Pay">
+                <p>Google Pay</p>
+            </div>
+            <div class="payment-option">
+                <img src="phonepe_icon.webp" alt="PhonePe">
+                <p>PhonePe</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
