@@ -1,17 +1,17 @@
 function whatIsNetflix() {
-    alert("Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.");
+    alert("Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices..");
 }
 
 function netflixCost() {
-    alert("Netflix offers several plans with varying prices. Check the official Netflix website for the most up-to-date pricing.");
+    alert("Netflix offers several plans with varying prices. Check the official Netflix website for the most up-to-date pricing..");
 }
 
 function whereToWatch() {
-    alert("You can watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee.");
+    alert("You can watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee..");
 }
 
 function howToCancel() {
-    alert("You can cancel your Netflix subscription at any time through your account settings on the Netflix website.");
+    alert("You can cancel your Netflix subscription at any time through your account settings on the Netflix website..");
 }
 
 function whatToWatch() {
