@@ -1,54 +1,75 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>NetFlix</title>
-        <style>
-            .container {
-                display: flex;
-            }
-            .container .inner{
-                margin-left: 80%;
-                font-size: 20px;
-            }
-            .body{
-                text-align: center;
-            }
-            .button{
-                padding-left: 470px;
-                font-size: larger;
-            }
-            .next{
-                background-color: red;
-                height: 30px;
-                width: 120px; 
-                border-radius: 5%;
-                padding-top: .5%;
-                font-size: 25px;    
-            }
-            a { text-decoration:none; }
-        </style>
-    </head>
-    <body>
-    <div class="container">
-        <img src="C:\Users\HP\Pictures\Screenshots\Screenshot (495).png"width="150" length="100">
-       <p class="inner"><a href="###">Sign In</a></p>
-    </div>
+<head>
+    <title>NetFlix</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .container .inner{
+            margin-left: 75%;
+            font-size: 20px;
+        }
+        .body{
+            text-align: center;
+        }
+        .button{
+            padding-left: 470px;
+            font-size: larger;
+        }
+        .next{
+            background-color: red;
+            height: 30px;
+            width: 120px; 
+            border-radius: 5%;
+            padding-top: .5%;
+            font-size: 25px;    
+        }
+        a { text-decoration:none; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="C:\Users\HP\Pictures\Screenshots\Screenshot (495).png" width="150" length="100">
+    <p class="inner"><a href="file:///C:/Users/HP/Desktop/scm_project/scm_project/signin.html">Sign In</a></p>
+</div>
 
 <hr>
 
-       <div class="body">STEP 1 to 3<br>
-        <h1>Welcome back!</h1>
-        <h1>Joining Netflix is easy</h1>
-        <h4>Enter your password and you'll be watching in no time.</h4>
-        <h7>Email</h7>
-        <h4>xyz@gmail.com</h4>
-        <input type="text" name="contact" placeholder="enter your password" size="40" style="height: 20px;"><br>
-        <p style="background-color: aliceblue;"></p>
-        <p style="background-color: aliceblue;"></p>
-        </div>
-       <p class="button"><a href="file:///C:/Users/HP/Desktop/scm_project/scm_project/forget.html">Forget Your Password</a></p>
-       <center><p class="next" style="text-align: center;"><a href="file:///C:/Users/Mehak/Desktop/fviva/scm_project/third.html">NEXT</a></p></center>
-      </body>
+<div class="body">
+    <h1>Welcome back!</h1>
+    <h1>Joining Netflix is easy</h1>
+    <h4>Enter your password and you'll be watching in no time.</h4>
+    <h7>Email</h7>
+    <h4>xyz@gmail.com</h4>
+    <input id="password" type="password" name="password" placeholder="Enter your password" size="40" style="height: 20px;"><br>
+    <p style="background-color: aliceblue;"></p>
+    <p style="background-color: aliceblue;"></p>
+</div>
+<p class="button"><a href="file:///C:/Users/HP/Desktop/scm_project/scm_project/forget.html">Forget Your Password</a></p>
+
+<center><p class="next" style="text-align: center;"><a href="file:///C:/Users/HP/Desktop/scm_project/scm_project/third.html" onclick="validatePassword()">NEXT</a></p></center>
+
+<script>
+    function validatePassword() {
+        var enteredPassword = document.getElementById("password").value;
+        var correctPassword = "lavisha"; // Replace this with your correct password
+
+        if (enteredPassword === correctPassword) {
+            alert("Password is correct. Redirecting to the next step...");
+            window.location.href = "file:///C:/Users/Mehak/Desktop/fviva/scm_project/third.html"; // Redirect to the next step
+        } else {
+            alert("Incorrect password. Please try again.");
+            var enteredPassword = document.getElementById("password").value;
+             // Prevents the link from being followed
+        }
+    }
+</script>
+
+</body>
 </html>
+
+
 
 
 
