@@ -15,5 +15,5 @@ function howToCancel() {
 }
 
 function whatToWatch() {
-    alert("Netflix offers a vast library of content, including original series, movies, documentaries, and more. Explore the Netflix catalog to find something that interests you.");
+    alert("Netflix offers a vast library of content, including original series, movies, documentaries, and more. Explore the Netflix catalog to find something that interests you..");
 }
